@@ -22,4 +22,5 @@ it.only('form layouts test', () => {
   navigateTo.datePickerPage();
   onDatePickerPage.selectCommonandDateFromToday(5);
   onDatePickerPage.selectRangePickerDateFromToday(5, 10);
+  
 })
