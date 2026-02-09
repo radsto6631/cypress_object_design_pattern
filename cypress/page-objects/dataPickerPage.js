@@ -28,7 +28,6 @@ function selectDateFromCurrentDay(day) {
   return dateToAssert
 }
 
-
 class DatePickerPage{
 
     selectCommonandDateFromToday(daysFromToday) {

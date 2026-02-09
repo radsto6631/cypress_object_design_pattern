@@ -5,7 +5,8 @@ import { onFormLayoutsPage } from "../page-objects/formsLayoutsPage";
 import { navigateTo } from "../support/pageObject/navigationPage"
 
 beforeEach('Open application', () => {
-  cy.visit("/");
+  //cy.visit("/");
+  cy.openHomePage();
 })
 
 it('navigation test', () => {
@@ -22,5 +23,4 @@ it.only('form layouts test', () => {
   navigateTo.datePickerPage();
   onDatePickerPage.selectCommonandDateFromToday(5);
   onDatePickerPage.selectRangePickerDateFromToday(5, 10);
-  
 })
